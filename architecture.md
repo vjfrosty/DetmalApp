@@ -15,7 +15,3 @@ graph TD
   WebApp --> Logs[Audit Logs]
   WebApp --> ModelManager[Model Hotloader + Retrainer]
 ```
-
-<ExplainAfter>
-This architecture simplifies deployment and cost. Everything runs within a single container or tightly coupled docker-compose setup. Web server (Flask/React) handles UI, auth, inference, and image storage via internal modules. Ideal for VPS deployments.
-</ExplainAfter>
