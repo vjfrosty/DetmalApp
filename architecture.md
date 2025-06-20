@@ -5,7 +5,6 @@
 ### All-in-One Diagram
 ```mermaid
 %% Single Docker container, all-in-one stack
-
   Dentist --> Browser
   Browser --> WebApp[Web App (React + Flask)]
   WebApp --> Auth[JWT + MFA Auth]
